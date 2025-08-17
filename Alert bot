@@ -1,0 +1,27 @@
+{
+  "name": "Crypto Signal Bot",
+  "description": "Advanced crypto signal bot with whale USD valuation and RSI/ATR filters",
+  "repository": "https://github.com/Kamiljon01/gwolf",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "value": "8488186579:AAH1ngSKrKKKDoBsj-mqv1iaRW6_C9Im5Io"
+    },
+    "ADMIN_USER_ID": {
+      "description": "Your Telegram user ID",
+      "value": "5025676989"
+    },
+    "ALLOWED_CHAT_IDS": {
+      "description": "Chats allowed to receive signals",
+      "value": "5025676989"
+    },
+    "SCORE_THRESHOLD": {
+      "description": "Minimum signal score to alert",
+      "value": "0.6"
+    },
+    "ALERT_COOLDOWN_MIN": {
+      "description": "Cooldown between repeated alerts (minutes)",
+      "value": "20"
+    }
+  }
+}
